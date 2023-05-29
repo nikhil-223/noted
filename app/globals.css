@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=League+Spartan:wght@700&family=Lilita+One&family=Pacifico&family=Poppins:wght@200;300;400;800&family=Roboto+Condensed&family=Roboto:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+body{
+
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+.blue_gradient {
+	@apply bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+}
+ 
+.login_btn{ 
+  @apply text-lg text-blue-100 bg-teal-500 rounded-2xl px-3 py-1 hover:text-cyan-600 hover:bg-transparent hover:border-2 hover:border-gray-200 border-2 border-transparent transition-all;
+} 
+
+.btn{ 
+  @apply text-lg text-blue-100 bg-teal-500 rounded-xl px-3 py-1 hover:text-cyan-600 hover:bg-transparent hover:border-cyan-600 border-2 border-transparent transition-all;
+  border: 0.05rem solid;
+} 
+.btn-normal{ 
+  @apply text-lg text-cyan-600 hover:text-blue-100 hover:bg-teal-500 rounded-xl px-3 py-1 hover:border-transparent transition-all;
+  border: 0.05rem solid;
+  background-color: rgb(202, 240, 245);
+
+} 
+
+.text_input{
+  outline: none;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+#textarea-editable{
+  min-height: 50vh ;
+  @apply p-2 outline-none
+}
+
+.note_item{
+  @apply   h-52 rounded-lg hover:shadow-md transition-all bg-slate-50 shadow;
+  
+  width: 22rem;
+  margin: auto;
+  margin-top: 0.5rem;
+
+}
+
+.savedGif{
+  width: 1.5rem;
+  height: 1.5rem;
+}
