@@ -90,7 +90,7 @@ const Navbar = () => {
 							onClick={() => {
 								setToggleDropdown((prev) => !prev);
 							}}>
-							<Link href="/about" className=" text-xl font-bold">
+							<Link href="/create-note" className=" text-xl font-bold">
 								Create note
 							</Link>
 						</div>

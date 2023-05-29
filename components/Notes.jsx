@@ -34,10 +34,11 @@ const Notes = () => {
 	return (
 		<section
 			id="notes"
-			className={`sm:w-full flex sm:justify-center md:justify-start flex-wrap px-2 sm:py-5 md:pt-0 gap-2 ${pathname==='/notes' && 'mt-16'}`}>
+			className={`sm:w-full flex sm:justify-center md:justify-start flex-wrap px-2 sm:py-5 md:pt-0 gap-2 ${pathname==='/notes' && 'mt-8'}`}>
         {notes.map(note=> (<NoteItem key={note._id} id={note._id} title={note.title} note={note.note} />))}
 		</section>
 	);
 };
 
 export default Notes;
+ 

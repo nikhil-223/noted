@@ -91,11 +91,11 @@ const Form = () => {
 					type="text"
 				/>
 			</div>
-			<div className="mt-3 flex justify-between gap-2">
-				<div>
+			<div className="mt-3 flex justify-between items-center gap-2">
+				<div >
 					<Link
 						href='/notes'
-						className="btn">
+						className="an-btn p-2">
 						All notes
 					</Link>
 				</div>

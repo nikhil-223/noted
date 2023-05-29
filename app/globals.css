@@ -10,6 +10,7 @@
 
 body{
 
+  color: rgb(5, 47, 74);
 }
 
 ::-webkit-scrollbar{
@@ -33,6 +34,12 @@ body{
   @apply text-lg text-blue-100 bg-teal-500 rounded-xl px-3 py-1 hover:text-cyan-600 hover:bg-transparent hover:border-cyan-600 border-2 border-transparent transition-all;
   border: 0.05rem solid;
 } 
+
+.an-btn{ 
+  @apply text-lg text-blue-100 bg-teal-500 rounded-xl px-3 py-1 hover:text-cyan-600 hover:bg-transparent hover:border-cyan-600 border-2 border-transparent transition-all;
+  /* border: 0.05rem solid; */
+} 
+
 .btn-normal{ 
   @apply text-lg text-cyan-600 hover:text-blue-100 hover:bg-teal-500 rounded-xl px-3 py-1 hover:border-transparent transition-all;
   border: 0.05rem solid;
@@ -53,7 +60,6 @@ body{
 
 .note_item{
   @apply   h-52 rounded-lg hover:shadow-md transition-all bg-slate-50 shadow;
-  
   width: 22rem;
   margin: auto;
   margin-top: 0.5rem;
@@ -63,4 +69,10 @@ body{
 .savedGif{
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.about{
+  font-size: unset;
+  font-family: 'Roboto';
+  color: rgb(5, 47, 74);
 }
