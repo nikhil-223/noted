@@ -95,6 +95,7 @@ const page = () => {
 						type="text"
 						value={note.title}
 						onChange={handleChangeInput}
+						style={{minWidth:'0'}}
 					/>
 					<div
 						className="flex items-center gap-2 cursor-pointer"
