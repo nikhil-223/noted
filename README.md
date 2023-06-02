@@ -1,7 +1,7 @@
 
 # Noted
 
-![Note-Taking App](images/Noted.png)
+![Note-Taking App](public/images/Noted.png)
 
 ## Demo
 
