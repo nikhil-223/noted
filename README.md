@@ -1,11 +1,9 @@
 
 # Noted
 
-![Note-Taking App](images/Noted.png)
-
-## Demo
-
  <a href='tobenoted.vercel.app' target='_blank' >Noted</a>
+ 
+![Note-Taking App](public/images/Noted.png)
 
 Welcome to the Note-Taking App repository! This project is built with Next.js and NextAuth, providing a powerful and user-friendly online note-taking experience. Create, edit, and delete notes with ease, while leveraging Next.js for enhanced performance and NextAuth for secure authentication.
 
