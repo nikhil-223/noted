@@ -91,7 +91,7 @@ const page = () => {
 			<div className="w-full h-full rounded-lg p-3 shadow hover:shadow-md transition-all bg-slate-50">
 				<div className="p-2 flex justify-between font-extrabold items-center">
 					<input
-						className="outline-none bg-transparent p-2"
+						className="outline-none w-full bg-transparent font-extrabold text-xl p-2"
 						type="text"
 						value={note.title}
 						onChange={handleChangeInput}
