@@ -22,19 +22,20 @@ const Form = () => {
     const createNotes = async (e) => {
 			e.preventDefault();
 			setSubmitting(true);
+			const tags= note.tag.filter((tagitem)=>tagitem!=='')
 			try {
 				const response = await fetch("/api/notes/new", {
 					method: "POST",
 					body: JSON.stringify({
 						title: note.title,
 						note:note.note,
-						tag: note.tag,
+						tag: tags,
 						userId: session?.user.id,
 					}),
 				});
 
 				const data= await response.json()
-				console.log(data);
+				
 				if (response.ok) {
 					router.push(`/notes/${data._id}`);
 				}

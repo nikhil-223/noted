@@ -93,7 +93,7 @@ const page = () => {
 					<input
 						className="outline-none w-full bg-transparent font-extrabold text-xl p-2"
 						type="text"
-						value={note.title}
+						value={note.title!== undefined? note.title:""}
 						onChange={handleChangeInput}
 						style={{minWidth:'0'}}
 					/>
@@ -124,6 +124,9 @@ const page = () => {
 						value={note.note}
 						onChange={handleTextareaChange}
 					/>
+				</div>
+				<div className="p-2 flex gap-2 font-bold text-blue-500 " >
+					{note.tag && note.tag.map((tagitem,index) => (<div key={index}>#{tagitem}</div>))}
 				</div>
 			</div>
 		</section>
