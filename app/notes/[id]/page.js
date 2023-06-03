@@ -93,7 +93,7 @@ const page = () => {
 					<input
 						className="outline-none w-full bg-transparent font-extrabold text-xl p-2"
 						type="text"
-						value={note.title!== undefined? note.title:""}
+						value={note.title? note.title:""}
 						onChange={handleChangeInput}
 						style={{minWidth:'0'}}
 					/>
