@@ -1,7 +1,7 @@
 
 # Noted
 
- <a href='tobenoted.vercel.app' target='_blank' >Noted</a>
+ <a href='http://tobenoted.vercel.app' target='_blank' >Noted</a>
  
 ![Note-Taking App](public/images/Noted.png)
 
